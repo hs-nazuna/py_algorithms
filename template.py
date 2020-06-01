@@ -4,8 +4,11 @@ import math
 
 # I/O
 def read(): return input()
+
 def read_int(): return int(input())
+
 def read_array(type=int): return [type(i) for i in input().split()]
+
 def read_tupple(type=None):
     tmp = input().split()
     if type is None: return map(int, tmp)
